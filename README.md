@@ -29,7 +29,7 @@ make build-handson4
 ```CLI
 docker images
 ```
-- Jika repository **handson4** sudah ada, maka perintah selanjutnya ada menjalankan perintah run dengan cara mengetik-kan perintah berikut.
+- Jika repository **handson4** sudah ada, maka perintah selanjutnya adalah menjalankan perintah run dengan cara mengetik-kan perintah berikut.
 
     Linux
     
