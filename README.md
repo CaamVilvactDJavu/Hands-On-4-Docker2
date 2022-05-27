@@ -11,15 +11,14 @@ Program python yang akan anda *wrap* adalah tugas akhir Pemrograman Berorientasi
 
 ## Tutorial menjalankan Container
 
-Anda dapat men-clone repositori ini di terminal anda dengan cara mengetik-kan:
+> Repository wajib di pindahkan ke folder `~/Download`
+Anda dapat men-clone repositori ini di folder `~/Download` pada terminal anda dengan cara mengetik-kan:
 
 ```CLI
 git clone https://github.com/CaamVilvactDJavu/Hands-On-4-Docker2
 ```
 
 atau dapat di download [di sini](https://github.com/CaamVilvactDJavu/Hands-On-4-Docker2/archive/refs/heads/main.zip).
-
-> Repository wajib di pindahkan ke folder `~/Download`
 
 - Buka terminal di folder `~/Download` dan jalankan command build seperti berikut.
 ```CLI
