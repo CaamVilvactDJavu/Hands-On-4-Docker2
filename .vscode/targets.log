@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri May 27 22:07:49 2022
+# Make data base, printed on Fri May 27 22:12:39 2022
 
 # Variables
 
@@ -23,15 +23,15 @@ SSH_AGENT_LAUNCHER = gnome-keyring
 # environment
 SNAP_INSTANCE_KEY = 
 # environment
-POSH_THEME = /home/steins-gate/.config/powershell/steinsgate.omp.json
+GJS_DEBUG_OUTPUT = stderr
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-675604b3-0f73-4d06-a867-9a83fdd93b35.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-101b9e4b-b6d9-4225-8d37-83eb92198c53.sock
 # environment
 LC_NAME = id_ID.UTF-8
 # environment
 LC_NUMERIC = id_ID.UTF-8
 # environment
-VSCODE_CWD = /home/steins-gate/Desktop/Hands-On-4-Docker2
+VSCODE_CWD = /home/steins-gate
 # environment
 WINDOWPATH = 2
 # environment
@@ -52,8 +52,6 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 .VARIABLES := 
 # environment
 PWD = /home/steins-gate/Desktop/Hands-On-4-Docker2
-# environment
-CLR_ICU_VERSION_OVERRIDE = 60.2
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
@@ -65,8 +63,6 @@ VSCODE_LOG_STACK = false
 # automatic
 %F = $(notdir $%)
 # environment
-CONDA_PROMPT_MODIFIER = False
-# environment
 VSCODE_CODE_CACHE_PATH = /home/steins-gate/.config/Code/CachedData/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5
 # environment
 LANG = C
@@ -76,12 +72,8 @@ XAUTHORITY = /run/user/1000/gdm/Xauthority
 .LOADED := 
 # default
 .INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
-# environment
-GNOME_TERMINAL_SERVICE = :1.1119
 # makefile
 MAKEFLAGS = pqrR
-# environment
-POWERSHELL_DISTRIBUTION_CHANNEL = PSSnap
 # makefile
 CURDIR := /home/steins-gate/Desktop/Hands-On-4-Docker2
 # environment
@@ -89,7 +81,7 @@ VSCODE_PIPE_LOGGING = true
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
-POWERLINE_COMMAND = oh-my-posh
+LESSOPEN = | /usr/bin/lesspipe %s
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
@@ -98,8 +90,6 @@ MFLAGS = -pqrR
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # default
 .SHELLFLAGS := -c
-# environment
-PSModulePath = /home/steins-gate/.local/share/powershell/Modules:/usr/local/share/powershell/Modules:/snap/powershell/208/opt/powershell/Modules
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # automatic
@@ -115,15 +105,13 @@ SNAP_REEXEC =
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 83351
-# environment
-GIT_SSH = C:\Windows\system32\OpenSSH\ssh.exe
+VSCODE_PID = 84237
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-POSH_THEMES_PATH = /home/steins-gate/.cache/oh-my-posh/themes
+BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
 # environment
 SESSION_MANAGER = local/Nitro-AN515-51:@/tmp/.ICE-unix/2987,unix/Nitro-AN515-51:/tmp/.ICE-unix/2987
 # automatic
@@ -136,8 +124,6 @@ DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 <D = $(patsubst %/,%,$(dir $<))
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
-# environment
-POSH_GIT_ENABLED = False
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
@@ -149,9 +135,9 @@ MAKECMDGOALS := all
 # environment
 XMODIFIERS = @im=ibus
 # environment
-SHLVL = 0
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/348594ca_d696_42a6_b8db_fc6b67039ca3
+SHLVL = 0
 # environment
 MAKELEVEL := 0
 # default
@@ -159,7 +145,7 @@ MAKE = $(MAKE_COMMAND)
 # environment
 SNAP_COOKIE = WxAzbv6t3D0dnO9kgL-vbcJxKTl7Dd0XmsCBwdQccwZRNxSZMftR
 # environment
-PATH = /home/steins-gate/.cache/oh-my-posh:/snap/powershell/208/opt/powershell:/home/steins-gate/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+PATH = /home/steins-gate/.local/bin:/home/steins-gate/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
 # default
 MAKEFILES := 
 # environment
@@ -173,6 +159,8 @@ LC_TIME = id_ID.UTF-8
 # environment
 SNAP = /snap/code/97
 # environment
+INVOCATION_ID = 53bb37f53eb74fad983dbf4c8753810d
+# environment
 SNAP_REVISION = 97
 # environment
 SNAP_REAL_HOME = /home/steins-gate
@@ -182,10 +170,14 @@ VSCODE_LOG_NATIVE = false
 USERNAME = steins-gate
 # environment
 LC_TELEPHONE = id_ID.UTF-8
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
 # automatic
 ?F = $(notdir $?)
 # environment
 XDG_CURRENT_DESKTOP = Unity
+# environment
+LS_COLORS = 
 # automatic
 +F = $(notdir $+)
 # environment
@@ -196,6 +188,8 @@ ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 GNUMAKEFLAGS := 
 # environment
 LOGNAME = steins-gate
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
 # environment
 SNAP_ARCH = amd64
 # makefile
@@ -217,9 +211,13 @@ SNAP_DATA = /var/snap/code/97
 # environment
 SNAP_CONTEXT = WxAzbv6t3D0dnO9kgL-vbcJxKTl7Dd0XmsCBwdQccwZRNxSZMftR
 # environment
-POSH_PATH = /home/steins-gate/.cache/oh-my-posh
+MANAGERPID = 2634
 # environment
 LC_MEASUREMENT = id_ID.UTF-8
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 84189
+# environment
+_ = /snap/code/97/usr/share/code/code
 # environment
 LC_PAPER = id_ID.UTF-8
 # environment
@@ -227,9 +225,9 @@ XDG_RUNTIME_DIR = /run/user/1000
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-COLORTERM = truecolor
-# environment
 GDK_PIXBUF_MODULE_FILE = /home/steins-gate/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+JOURNAL_STREAM = 8:35756
 # environment
 XDG_SESSION_CLASS = user
 # environment
@@ -242,8 +240,6 @@ QT_IM_MODULE = ibus
 ELECTRON_RUN_AS_NODE = 1
 # environment
 VSCODE_IPC_HOOK = /run/user/1000/vscode-66041626-1.67.2-main.sock
-# environment
-TERM = xterm-256color
 # environment
 SNAP_NAME = code
 # environment
@@ -261,8 +257,6 @@ VSCODE_CLI = 1
 # environment
 ELECTRON_NO_ATTACH_CONSOLE = 1
 # environment
-VTE_VERSION = 6800
-# environment
 SNAP_COMMON = /var/snap/code/common
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
@@ -277,7 +271,7 @@ LC_IDENTIFICATION = id_ID.UTF-8
 # environment
 SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
 # variable set hash-table stats:
-# Load=132/1024=13%, Rehash=0, Collisions=12/162=7%
+# Load=129/1024=13%, Rehash=0, Collisions=5/159=3%
 
 # Pattern-specific Variable Values
 
@@ -287,6 +281,7 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 
 # . (device 2071, inode 5767205): 12 files, no impossibilities.
 
+ 
 # 12 files, no impossibilities in 1 directories.
 
 # Implicit Rules
@@ -299,7 +294,6 @@ run-windows:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
- 
 #  recipe to execute (from 'Makefile', line 8):
 	docker run --privileged -it --rm --cap-add=SYS_PTRACE -u 1000:1000 -e DISPLAY=127.0.0.1:0.0 -v %userprofile%\Downloads:/home/docker handson4
 
@@ -385,6 +379,6 @@ all:
 # strcache performance: lookups = 33 / hit rate = 33%
 # hash-table stats:
 # Load=22/8192=0%, Rehash=0, Collisions=0/33=0%
-# Finished Make data base on Fri May 27 22:07:49 2022
+# Finished Make data base on Fri May 27 22:12:39 2022
 
  

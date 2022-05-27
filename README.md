@@ -49,3 +49,7 @@ docker images
 ```CLI
 python3 ./main.py
 ```
+
+## Video Tutorial
+
+[![Video Tutorial](Youtube.png)](https://www.youtube.com/watch?v=BZr0LZYN4MA)
