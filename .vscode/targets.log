@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri May 27 22:12:39 2022
+# Make data base, printed on Fri May 27 23:10:08 2022
 
 # Variables
 
@@ -25,7 +25,7 @@ SNAP_INSTANCE_KEY =
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-101b9e4b-b6d9-4225-8d37-83eb92198c53.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-e5ab2f32-dcbb-4720-b226-9771f9b9d7af.sock
 # environment
 LC_NAME = id_ID.UTF-8
 # environment
@@ -105,7 +105,7 @@ SNAP_REEXEC =
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 84237
+VSCODE_PID = 86659
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
@@ -215,7 +215,7 @@ MANAGERPID = 2634
 # environment
 LC_MEASUREMENT = id_ID.UTF-8
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 84189
+GIO_LAUNCHED_DESKTOP_FILE_PID = 86609
 # environment
 _ = /snap/code/97/usr/share/code/code
 # environment
@@ -279,12 +279,12 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 
 # Directories
 
-# . (device 2071, inode 5767205): 12 files, no impossibilities.
+# . (device 2071, inode 5767205): 13 files, no impossibilities.
 
- 
-# 12 files, no impossibilities in 1 directories.
+# 13 files, no impossibilities in 1 directories.
 
 # Implicit Rules
+ 
 
 # No implicit rules.
 
@@ -373,12 +373,12 @@ all:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 22 / storage = 201 B / avg = 9 B
-# current buf: size = 8162 B / used = 201 B / count = 22 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 23 / storage = 213 B / avg = 9 B
+# current buf: size = 8162 B / used = 213 B / count = 23 / avg = 9 B
 
-# strcache performance: lookups = 33 / hit rate = 33%
+# strcache performance: lookups = 34 / hit rate = 32%
 # hash-table stats:
-# Load=22/8192=0%, Rehash=0, Collisions=0/33=0%
-# Finished Make data base on Fri May 27 22:12:39 2022
+# Load=23/8192=0%, Rehash=0, Collisions=0/34=0%
+# Finished Make data base on Fri May 27 23:10:08 2022
 
  
