@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri May 27 21:07:59 2022
+# Make data base, printed on Fri May 27 21:28:57 2022
 
 # Variables
 
@@ -25,7 +25,7 @@ SNAP_INSTANCE_KEY =
 # environment
 POSH_THEME = /home/steins-gate/.config/powershell/steinsgate.omp.json
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-1ece9c83-fb41-4681-b647-e878496fcbd8.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-8c477602-5ab1-4c39-bb88-1c0dc994d662.sock
 # environment
 LC_NAME = id_ID.UTF-8
 # environment
@@ -82,6 +82,8 @@ GNOME_TERMINAL_SERVICE = :1.913
 MAKEFLAGS = pqrR
 # environment
 POWERSHELL_DISTRIBUTION_CHANNEL = PSSnap
+# environment
+DBUS_STARTER_ADDRESS = unix:path=/run/user/1000/bus,guid=f62e729e000f0430657ca0bd6290a247
 # makefile
 CURDIR := /home/steins-gate/Downloads/Hands-On-4-Docker2
 # environment
@@ -115,7 +117,7 @@ SNAP_REEXEC =
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 63464
+VSCODE_PID = 71874
 # environment
 GIT_SSH = C:\Windows\system32\OpenSSH\ssh.exe
 # environment
@@ -131,7 +133,7 @@ SESSION_MANAGER = local/Nitro-AN515-51:@/tmp/.ICE-unix/2987,unix/Nitro-AN515-51:
 # environment
 CHROME_DESKTOP = code-url-handler.desktop
 # environment
-DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus,guid=f62e729e000f0430657ca0bd6290a247
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
 # environment
@@ -151,7 +153,7 @@ XMODIFIERS = @im=ibus
 # environment
 SHLVL = 0
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/37f3795b_fdfc_4249_8d87_f85213ad8dbc
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/f5158460_12d4_490b_b321_b80ca28a33d5
 # environment
 MAKELEVEL := 0
 # default
@@ -201,7 +203,7 @@ SNAP_ARCH = amd64
 # makefile
 .DEFAULT_GOAL := build-handson4
 # environment
-SYSTEMD_EXEC_PID = 3014
+SYSTEMD_EXEC_PID = 2987
 # environment
 DISPLAY = :1
 # environment
@@ -218,6 +220,8 @@ SNAP_DATA = /var/snap/code/97
 SNAP_CONTEXT = WxAzbv6t3D0dnO9kgL-vbcJxKTl7Dd0XmsCBwdQccwZRNxSZMftR
 # environment
 POSH_PATH = /home/steins-gate/.cache/oh-my-posh
+# environment
+DBUS_STARTER_BUS_TYPE = session
 # environment
 LC_MEASUREMENT = id_ID.UTF-8
 # environment
@@ -277,7 +281,7 @@ LC_IDENTIFICATION = id_ID.UTF-8
 # environment
 SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
 # variable set hash-table stats:
-# Load=132/1024=13%, Rehash=0, Collisions=12/162=7%
+# Load=134/1024=13%, Rehash=0, Collisions=13/164=8%
 
 # Pattern-specific Variable Values
 
@@ -285,8 +289,9 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 
 # Directories
 
-# . (device 2071, inode 3941588): 12 files, no impossibilities.
+# . (device 2071, inode 4850388): 12 files, no impossibilities.
 
+ 
 # 12 files, no impossibilities in 1 directories.
 
 # Implicit Rules
@@ -326,7 +331,7 @@ run-linux: xhost
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-05-27 21:07:06.041152433
+#  Last modified 2022-05-27 21:28:13.235167262
 #  File has been updated.
 #  Successfully updated.
 
@@ -360,7 +365,6 @@ build-handson4:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
- 
 #  recipe to execute (from 'Makefile', line 2):
 	docker build . -t handson4
 
@@ -385,6 +389,6 @@ all:
 # strcache performance: lookups = 33 / hit rate = 33%
 # hash-table stats:
 # Load=22/8192=0%, Rehash=0, Collisions=0/33=0%
-# Finished Make data base on Fri May 27 21:07:59 2022
+# Finished Make data base on Fri May 27 21:28:57 2022
 
  
