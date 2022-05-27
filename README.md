@@ -11,7 +11,8 @@ Program python yang akan anda *wrap* adalah tugas akhir Pemrograman Berorientasi
 
 ## Tutorial menjalankan Container
 
-> Repository wajib di pindahkan ke folder `~/Download`
+> Repository wajib di pindahkan ke folder `~/Download`.
+
 Anda dapat men-clone repositori ini di folder `~/Download` pada terminal anda dengan cara mengetik-kan:
 
 ```CLI
