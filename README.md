@@ -47,5 +47,5 @@ docker images
     ```
 - Langkah terakhir adalah menjalankan game Space Battle dengan perintah sebagai berikut.
 ```CLI
-python ./main.py
+python3 ./main.py
 ```
